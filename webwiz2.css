@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+}
+.container{
+    height: 730px;
+    width: 100%;
+
+}
+.bg-img img{
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    z-index: 2;
+    color: white;
+    position: relative;
+    bottom: 700px;
+}
+.options li{
+    list-style: none;
+    margin: 15px;
+    padding: 5px;
+}
+.options ul{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+}
+.img{
+    width: 200px;
+}
+.img img{
+    width: 200px;
+    height: 60px;
+}
+
+.opts{
+    display: flex;
+    align-items: center;
+}
+.btn-2{
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-left: 40px;
+    padding: 10px;
+}
+.main{
+    margin-left: 80px;
+}
+.btn-3{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.p1{
+    color: rgb(133, 229, 205);
+}
+.content{
+    display: flex;
+}
+.main p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main-1{
+    display:flex;
+}
+.box-1{
+    height: 270px;
+    width: 170px;
+    background-color: blanchedalmond;
+    margin-left: 350px;
+    z-index: -1;
+    position: relative;
+    top: 40px;
+}
+.box-2 img{
+    height: 270px;
+    width: 200px;
+    z-index: 3;
+    position: relative;
+    margin-left: -250px;
+
+}
+.box-3 img{
+    height: 270px;
+    width: 200px;
+    z-index: 4;
+    position: relative;
+    top: 90px;
+    margin-left: -80px;
+}
+.card-1{
+    height: 400px;
+    width: 380px;
+    background-color: #f2f2f2;
+}
+.card-1 img{
+    height: 200px;
+    width: 380px;
+}
+.card-1 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-opts{
+    height: 50px;
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-4{
+    background-color: orangered;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+.fund{
+    color:rgb(67, 231, 190) ;
+}
+.cards{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-around;
+}
+.today img{
+    width: 100%;
+    height: 600px;
+}
+.purpose{
+    color: #fff;
+    position: relative;
+    text-align: center;
+    bottom: 550px;
+}
+.resources{
+    height: 350px;
+    position: relative;
+    bottom: 450px;
+    text-align: center
+}
+.food img{
+    height: 80px;
+    width: 80px;
+    background-color:rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    filter: grayscale(100%) brightness(0) invert(100%);
+}
+.food{
+    color: #fff;
+    padding: 20px;
+}
+.resources{
+    display: flex;
+    justify-content: space-around;
+}
+.map{
+    height: 500px;
+    bottom: 400px;
+    position: relative;
+}
+iframe{
+    height: 500px;
+    width: 100%;
+}
+.footer{
+    height: 500px;
+    background-color:#0C6170 ;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url(Chritee_nav_logo.png);
+    background-size: cover;
+    height: 40px;
+    width: 170px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+ul a{
+    display: block;
+}
+.footer-1 a{
+    padding: 5px;
+}
+.footer-2 a{
+    padding: 15px;
+}
+.footer-3 a{
+    padding: 15px;
+}
+.footer-4 a{
+    padding: 5px;
+}
+ul p{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+ul{
+    margin-top: 50px;
+}
+.btn-5{
+    background-color: orangered;
+    color: white;
+    padding: 10px 5px 10px 20px;
+    border: none;
+}
+.icons{
+    display: flex;
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+.icon-1{
+    padding: 10px;
+}
+.icon-2{
+    padding: 10px;
+}
+.icon-3{
+    padding: 10px;
+}
+.icon-4{
+    padding: 10px;
+}
+.content-1{
+    margin-top: 200px;
+    display: block;
+    color: #fff;
+    margin-left: -1100px;
+    font-size: 3rem;
+}
